@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+    Coding Challenge #1
+    Mark and John are trying to compare their BMI (Body Mass Index), which is
+    calculated using the formula:
+    BMI = mass / height ** 2 = mass / (height * height) (mass in kg and height in meter).
+     -->
+    <h1>Compare IBM mark and john</h1>
+    <script>
+        function compareIBM() {
+            //markWeight, markHeight, JohnWight, JohnHight
+            //lay value tu promt cho nhanh
+            let markWeight = prompt("What is mark Weight")
+            let markHeight = prompt("What is mark Height")
+            let JohnWight = prompt("What is John Weight")
+            let JohnHight = prompt("What is John Hight")
+            let ibmPerson1 = markWeight / (markHeight * markHeight)
+            let ibmPerson2 = JohnWight / (JohnHight * JohnHight)
+            if (ibmPerson1 > ibmPerson2) {
+                return 'mark HigherBMI'
+            } else {
+                return 'John HigherBMI'
+            }
+        }
+        // console.log(compareIBM(78, 1.69, 92, 1.95))
+        // console.log(compareIBM(95, 1.88, 85, 1.76))
+        console.log(compareIBM())
+    </script>
+</body>
+
+</html>
