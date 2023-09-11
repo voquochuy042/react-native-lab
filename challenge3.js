@@ -44,4 +44,3 @@ const findTeamWin = (team1, team2) => {
 findTeamWin(Dolphins, Koalas)
 findTeamWin([97, 112, 101], [109, 95, 123])
 findTeamWin([97, 112, 101], [109, 95, 106])
-findTeamWin([97, 11, 78], [109, 95, 106])
