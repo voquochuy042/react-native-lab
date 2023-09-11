@@ -14,3 +14,8 @@
 // Hints:
 // § To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 // § Value X is between 50 and 300, if it's >= 50 && <= 300
+const calcTheTip = (billValue) => {
+    let tip = billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2
+    console.log(`The bill was ${billValue}, the tip was ${tip}, and the total value ${billValue + tip}`);
+}
+calcTheTip(300)
