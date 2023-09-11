@@ -16,11 +16,13 @@
 
 const calcTip = (billValue) => {
     const tips = []
+    const total = []
     for (let i = 0; i < billValue.length; i++) {
         let tip = billValue[i] >= 50 && billValue[i] <= 300 ? billValue[i] * 0.15 : billValue[i] * 0.2
         tips.push(tip)
+        total.push(tips + billValue[i])
     }
-    return tips;
+    return [tips, total];
 }
 
 const bills = [125, 555, 44]
