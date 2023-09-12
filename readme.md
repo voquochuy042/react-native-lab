@@ -1,6 +1,6 @@
 "hello word"  
 # 1 : buổi học js ngày 11/9/2023
-[Bài Tập JS: Buổi 1, Buổi 2](https://docs.google.com/document/d/17-dBKNxpWOR_T-6WXwXbB9Yos7BOO4MZ/edit)
+- [Bài Tập JS: Buổi 1, Buổi 2](https://docs.google.com/document/d/17-dBKNxpWOR_T-6WXwXbB9Yos7BOO4MZ/edit)
 # 2 : React Native
 - [Buổi 3](https://www.figma.com/file/Zp0dtWCxVtAMAktwzdDrq3/Lab_01?type=design&mode=design&t=dskGZ6yXXARgSAdz-0)
 - [Buổi 4](https://www.figma.com/file/hcmRwSVUlSBTNvABIFDyaL/Lab_02?type=design&node-id=0-1&mode=design&t=ET7ea7H2HOVIY1UC-0)
