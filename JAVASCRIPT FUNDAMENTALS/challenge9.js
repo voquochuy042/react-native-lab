@@ -16,3 +16,4 @@ const printForecast = (arr) => {
 }
 console.log(printForecast([17, 21, 23]))
 console.log(printForecast([12, 5, -5, 0, 4]))
+console.log(printForecast([12, 5, -5, 0, 4,11,-12]))
