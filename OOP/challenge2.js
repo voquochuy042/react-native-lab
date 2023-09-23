@@ -1,13 +1,16 @@
-function Car(make,speed){
+class Car{
+    constructor(make,speed) {
         this.make = make
         this.speed = speed
-    this.accelerate=function (){
+    }
+    accelerate(){
         this.speed += 10
         console.log(`update speed of ${this.make} to ${this.speed}`)
-    }
-    this.brake =function (){
-        this.speed -= 5
 
+    }
+    brake(){
+        this.speed -= 5
+        console.log(`update speed of ${this.make} to ${this.speed}`)
     }
 }
 const honda = new Car("dream", 110)
